@@ -1,0 +1,64 @@
+.cardd {
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+     margin: 0rem 0rem 3rem 4rem;
+     padding-top: 20px; 
+     color: #d6d6d6;
+}
+.card{
+  width: 20rem;
+  height: 27rem;
+  background-color:#f5f6f7;
+  border-radius: 00.5rem;
+}
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-image {
+    width: 10rem;
+    height: 15rem;
+    border-radius: 0.3rem;
+    margin-top: 0.2rem;
+}
+
+.details {
+  margin-left: 2rem;
+}
+.product-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+  font-weight: 600;
+}
+.price {
+  color: rgb(165, 54, 54);
+  font-weight: 600;
+}
+.weight {
+  color: rgb(165, 54, 54);
+  margin-top: -0.3rem;
+  font-weight:500;
+
+}
+.seeding {
+  font-size: 0.9rem;
+  margin-top: -0.1rem;
+}
+
+.cutting {
+  font-size: 0.9rem;
+  margin-top: -0.6rem;
+  padding-bottom: 0.5rem;
+}
+
+
+@media only screen and (max-width: 576px){
+  .cardd{
+    margin: 0rem 0rem 3rem 3rem;
+  }
+}

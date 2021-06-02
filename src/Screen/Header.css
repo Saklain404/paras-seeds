@@ -1,0 +1,28 @@
+.header{
+    background-color: rgb(165, 54, 54);
+    width: 100%;
+    min-height: 3.5rem;
+    color:#ffffff;
+}
+.name{
+    font-size: 1.7rem;
+    padding:0.3rem 0rem 0rem 5rem;
+    color:#ffffff;
+    font-weight: 600;
+}
+.name > a{
+    color:#ffffff;
+}
+.name > a:hover {
+    font-size: 1.5rem;
+    color: black;
+}
+
+@media only screen and (max-width: 600px){
+    .name{
+        font-size: 1.7rem;
+        padding:0.3rem 0rem 0rem 2rem;
+        color:#ffffff;
+        font-weight: 600;
+    }
+}
