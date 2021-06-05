@@ -17,10 +17,16 @@
   color: white;
   margin: 5rem 0rem 5rem 0rem;
 }
+.justification{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
 
-@media only screen and (max-width: 576px){
+@media only screen and (max-width: 425px){
   .cmpny-name{
     font-weight: 600;
+    font-size: 2rem;
   }
 }
 

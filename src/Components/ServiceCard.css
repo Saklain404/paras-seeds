@@ -2,7 +2,7 @@
   display: flex;
     align-items: center;
     justify-content: space-between;
-     margin: 0rem 0rem 3rem 4rem;
+     margin: 0rem 0rem 3rem 0rem;
      padding-top: 20px; 
      color: #d6d6d6;
 }
@@ -57,8 +57,8 @@
 }
 
 
-@media only screen and (max-width: 576px){
+@media only screen and (max-width:320px){
   .cardd{
-    margin: 0rem 0rem 3rem 3rem;
+    /* margin: 0rem 0rem 3rem 3rem; */
   }
 }

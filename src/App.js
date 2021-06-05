@@ -131,10 +131,12 @@ const App = () => {
     <div className="App">
       <Header />
       <p className="cmpny-name">Paras Seeds pvt. Ltd</p>
-      <Row>
+      <Row className="justification">
         {products.map((item, index) => (
-          <Col
-            {...{ lg: 8 }}
+          <Col 
+          className="justification"
+            {...{md: 12 , lg: 8, xl:8, xxl:6 }}
+            
           >
             <ServiceCard {...item} key={index.toString()} />  
             {/* mapping */}
