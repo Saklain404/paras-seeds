@@ -95,8 +95,8 @@ const App = () => {
     {
       image: Avtar,
       name: "F1 Bitter Gourd Avtar",
-      weight: "570gm",
-      price: "₹500",
+      weight: "50gm",
+      price: "₹570",
       seeding: "15 Dec to 18 March",
       cutting: "45 to 55 Days",
     },
